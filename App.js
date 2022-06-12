@@ -25,7 +25,7 @@ const App = () => {
             headers: {Authorization: 'someAuthToken'},
             priority: FastImage.priority.normal,
           }}
-          resizeMode={FastImage.resizeMode.center}
+          resizeMode={FastImage.resizeMode.contain}
         />
       </View>
 
